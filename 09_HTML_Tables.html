@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Table TAG</title>
+    <style>
+        body{
+            font-family: Arial,sans-serif;
+        }
+        table,th,td{
+            border: 2px solid orangered;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 15px;
+            font-size: 18px;
+        }
+        table{
+            width: 100%;
+            box-shadow: 0 0 10px black;
+        }
+        #custom{
+            background-color: #fb8aff;
+            color: white;
+        }
+        #my{
+            background-color: #3229ff;
+            color: aqua;
+
+
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Simple Table -->
+    <h3> Simple Table </h3>
+    <table>
+        <thead>
+        <tr>
+            <th>SNO</th>
+            <th>NAME</th>
+            <th>DESIGINATION</th>
+            <th>COMPANY</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>NAG</td>
+            <td>Software Engineer</td>
+            <td>TCS</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>MAHI</td>
+            <td>Tech lead</td>
+            <td>HCL</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>PUSHPA</td>
+            <td>Manager</td>
+            <td>Wipro</td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    <!-- Table with Col Span -->
+    <h3> Table with Col Span </h3>
+    <table>
+        <thead>
+        <tr>
+            <th>SNO</th>
+            <th>NAME</th>
+            <th colspan="2">DESIGINATION&COMPANY</th>
+
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>NAG</td>
+            <td>Software Engineer</td>
+            <td>TCS</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>MAHI</td>
+            <td>Tech lead</td>
+            <td>HCL</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>PUSHPA</td>
+            <td colspan="2">Wipro-Manager</td>
+        </tr>
+        </tbody>
+    </table>
+
+
+
+    <!-- Table With Row Span -->
+    <h3> Table With Row Span </h3>
+    <table>
+        <thead>
+        <tr>
+            <th>SNO</th>
+            <th>NAME</th>
+            <th>DESIGINATION</th>
+            <th>COMPANY</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td rowspan="3">1</td>
+            <td>NAG</td>
+            <td>Software Engineer</td>
+            <td>TCS</td>
+        </tr>
+        <tr>
+
+            <td>MAHI</td>
+            <td>Tech lead</td>
+            <td>HCL</td>
+        </tr>
+        <tr>
+
+            <td>PUSHPA</td>
+            <td>Manager</td>
+            <td>Wipro</td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    <!-- Custom Table with CSS -->
+    <h3> Custom Table with CSS </h3>
+    <table>
+        <thead id="custom">
+        <tr>
+            <th>SNO</th>
+            <th>NAME</th>
+            <th>DESIGINATION</th>
+            <th>COMPANY</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>NAG</td>
+            <td>Software Engineer</td>
+            <td>TCS</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>SAHITHI</td>
+            <td>Tech lead</td>
+            <td>HCL</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>ANJALI</td>
+            <td>Manager</td>
+            <td>Wipro</td>
+        </tr>
+        </tbody>
+    </table>
+<h2>BLUE TABLE WITH CSS</h2>
+    <table>
+        <thead id="my">
+        <tr>
+            <th>SNO</th>
+            <th>NAME</th>
+            <th>DESIGINATION</th>
+            <th>COMPANY</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>INDRA</td>
+            <td>Software Engineer</td>
+            <td>TCS</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>SAHITHI</td>
+            <td>Tech lead</td>
+            <td>HCL</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>NANDINI</td>
+            <td>Manager</td>
+            <td>Wipro</td>
+        </tr>
+        </tbody>
+    </table>
+
+
+
+</body>
+</html>
